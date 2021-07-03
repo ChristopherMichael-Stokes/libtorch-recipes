@@ -2,9 +2,12 @@
 Repository of experiments created with libtorch, with the intention of being reused/modified for future work
 
 # Build dependencies
-1. The **libtorch** library.  To obtain, go to https://pytorch.org/ and use the install configurator to generate a download link for your setup.  Under the *package* section choose *LibTorch*, and for *platform* select *C++/Java*, the rest is up to you.
-1. Cpp compiler.  You need to ensure you have an up to date compiler supporting at least the cxx11 spec (gnu compiler is my choice). 
-1. Build system.  Following guidance from the libtorch docs, all programs will use **CMake** to build, and at least version 3.0 is required.
+1. The **libtorch** library.  To obtain, go to https://pytorch.org/ and use the install configurator to generate a download link for your setup.  Under the *package* section choose *LibTorch*, and for *platform* select *C++/Java*, the rest is up to you.  To use my options, reference the image below.
+
+![image](https://user-images.githubusercontent.com/25831463/124367866-f6bde080-dc52-11eb-97b2-39ed525bf668.png) 
+
+2. Cpp compiler.  You need to ensure you have an up to date compiler supporting at least the cxx11 spec (gnu compiler is my choice). 
+3. Build system.  Following guidance from the libtorch docs, all programs will use **CMake** to build, and at least version 3.0 is required.
 
 # How to build and run the code
 
